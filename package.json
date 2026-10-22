@@ -1,14 +1,18 @@
 {
-  "name": "demo.1",
+  "name": "node-js-learning-lab",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js core modules, filesystem, custom modules, and Express practice.",
   "main": "demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node demo.js",
+    "system-info": "node system_info.js",
+    "file:async": "node file_async.js",
+    "file:sync": "node file_sync.js",
+    "serve": "node server.js"
   },
-  "author": "Hari",
+  "author": "Hari Prasad",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
   }
-}
+}\n

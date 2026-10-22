@@ -1,15 +1,13 @@
-function checkuser(){
-    console.log("checking for user");
-    return false;
-
+function checkUser() {
+  console.log("Checking for user...");
+  return false; // Learning placeholder: no database is connected yet.
 }
 
-function registeruser(){
-    console.log("user registation susesessful");
+function registerUser() {
+  console.log("Registration example completed.");
 }
-    
-module.exports={
-    checkuser:checkuser,
-    registeruser:registeruser
 
-}
+module.exports = {
+  checkUser,
+  registerUser,
+};
